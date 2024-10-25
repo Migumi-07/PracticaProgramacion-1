@@ -1,0 +1,36 @@
+header {
+  z-index: 10;
+  background-color: transparent;
+  padding: 0;
+  position: relative;
+  top: 0;
+  box-sizing: border-box;
+}
+.accountHeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  z-index: 4;
+  margin-top: 20px;
+}
+
+.leftSide {
+  padding-left: 100px;
+  z-index: 4;
+}
+
+.leftSide a {
+  color: #454445;
+  font-size: 26px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.leftSide a:hover {
+  color: #9f4b4a;
+}
+
+.leftSide a:hover {
+  transform: scale(1.2);
+}

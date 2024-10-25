@@ -1,0 +1,143 @@
+header {
+  z-index: 10;
+  background-color: transparent;
+  padding: 0;
+  position: relative;
+  top: 0;
+  box-sizing: border-box;
+}
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  z-index: 4;
+}
+
+.leftSide {
+  padding-left: 100px;
+  z-index: 4;
+}
+
+.leftSide a {
+  color: white;
+}
+
+.leftSide a:hover {
+  transform: scale(1.2);
+}
+
+.headerIcon:hover {
+  transform: scale(1.1);
+}
+
+.headerIcon2:hover {
+  transform: scale(1.1);
+}
+
+.headerIcon,
+.headerIcon2 {
+  font-size: 30px;
+  margin-right: 20px;
+  background-color: #271b1e;
+  border-radius: 25%;
+  padding: 6px;
+  font-size: 26px;
+}
+
+.headerIcon {
+  background-color: #6c1d0f;
+}
+
+.leftSide span,
+.centerSide span {
+  margin-right: 60px;
+}
+
+.centerSide {
+  z-index: 4;
+}
+
+.centerSide a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.centerSide a:hover {
+  color: #af8056;
+}
+
+.rightSide {
+  display: flex;
+  gap: 10px;
+  margin-right: 100px;
+  z-index: 4;
+}
+
+.rightSide .btnLogin,
+.btnLogin2 {
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 2px 40px;
+  text-align: center;
+  align-items: center;
+  text-align: center;
+  z-index: 4;
+}
+
+.btnLogin2 {
+  background-color: #6c1d0f;
+  border: 2px solid rgb(32, 32, 32) !important;
+}
+
+.btnLogin:hover,
+.btnLogin2:hover {
+  transform: scale(1.05);
+}
+
+.loginIcon2 {
+  background-color: #da66f5;
+}
+.loginIcon {
+  background-color: #da66f5;
+}
+
+.btnLoginS2 {
+  background-color: #da66f5;
+  font-weight: bold;
+}
+.btnLogin {
+  font-weight: bold;
+}
+
+.centerLoginSide a:hover {
+  color: #da66f5;
+}
+.signupIcon {
+  background-color: #a2cba7;
+}
+.centerSignupSide a:hover {
+  color: #a2cba7;
+}
+
+.btnSignup2 {
+  background-color: #a2cba7;
+  font-weight: bold;
+}
+
+.artWorkIcon {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  
+}
+
+.centerArtworkSide {
+  position: relative;
+}
+
+.Disable {
+  position: unset;
+}

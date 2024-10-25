@@ -1,0 +1,371 @@
+.artWorkContainer {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 80px;
+  animation: zoomIn 1s ease-in-out forwards;
+}
+
+.artWork {
+  margin-left: 80px;
+  text-align: center;
+}
+
+.artWork .artWorkTitle {
+  color: white;
+  margin-left: 40px;
+}
+
+.artWorkImage {
+  display: block;
+}
+
+.artWorkimage {
+  transform: scale(1.1);
+}
+.imageText {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.artWorkImage {
+  border-radius: 40px;
+  width: 200px;
+}
+.artWorkImage:hover {
+  transform: scale(1.01);
+}
+
+.artWorkImageContainer {
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  animation: zoomIn 1s ease-in-out forwards;
+}
+
+.search {
+  color: white;
+  margin-left: 40px;
+}
+
+.search {
+  margin-bottom: 17px;
+}
+
+.searchBoxContainer {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 5px;
+  width: 300px;
+}
+
+.searchBox {
+  position: relative;
+  width: 300px;
+}
+
+.searchInput {
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 10px 40px;
+  width: 132px;
+  outline: none;
+  height: 20px;
+}
+
+.searchButton {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.searchButtonIcon {
+  margin-left: 0px;
+  margin-top: 5px;
+  color: #761a10;
+  font-size: 16px;
+}
+
+.buttonText {
+  margin-left: 5px;
+  color: black;
+}
+
+.btnMoreContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.btnMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 40px;
+  height: 40px;
+  width: 390px;
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+  background-color: #f4f4f4;
+  padding: 2px 0 2px 0;
+}
+
+.btnMoreTextLink {
+  text-decoration: none;
+}
+
+.btnMoreTextContainer {
+  text-align: center;
+}
+.btnMoreText {
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+}
+
+.artIconsContainer {
+  margin-top: 30px;
+}
+
+.iconsImagesContainer {
+  display: grid;
+}
+
+.iconsImages {
+  width: 158px;
+  height: 158px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  background-color: #761a10;
+}
+.iconsImages:hover {
+  transform: scale(1.02);
+
+  .btnMoreText:hover {
+    color: #761a10;
+  }
+}
+
+.loginInputContainer {
+  position: relative;
+  width: 300px;
+}
+
+.informationContainer {
+  display: grid;
+  margin: 10px;
+  margin-left: 124px;
+  width: 500px;
+  height: auto;
+}
+
+.informationContainer {
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+.statsIcon {
+  height: 70px;
+  width: 70px;
+  margin-right: 15px;
+}
+
+.statsContainer {
+  margin-top: 22px;
+  background-color: white;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  height: 90px;
+}
+
+.iconContainer {
+  flex: 0 0 auto;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.statsTitle {
+  display: flex;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+.statsDescription {
+  margin-top: -30px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+
+.statsCharacter {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+/*Page*/
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 6 / 6;
+}
+
+.my-masonry-grid {
+  display: flex;
+  margin-left: -30px;
+  width: auto;
+}
+
+.my-masonry-grid_column {
+  padding-left: 30px;
+  background-clip: padding-box;
+}
+
+.image-container {
+  margin-bottom: 30px;
+}
+
+img {
+  width: 100%;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.search-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.SearchCosito {
+  width: 100%;
+  padding: 10px 40px 10px 15px;
+  border-radius: 25px;
+  border: 2px solid #ccc;
+  font-size: 16px;
+}
+
+.Searchb:hover {
+  color: #000000;
+  transform: scale(1.1);
+}
+.searchb:focus {
+  border-color: #555;
+  box-shadow: 0 0 5px rgba(85, 85, 85, 0.5);
+}
+
+.my-masonry-grid {
+  display: flex;
+  margin-left: -15px;
+  width: auto;
+}
+
+.my-masonry-grid_column {
+  padding-left: 15px;
+  background-clip: padding-box;
+}
+
+.image-container {
+  margin-bottom: 15px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  animation: zoomIn 0.5s ease forwards;
+}
+
+.image-container:hover {
+  transform: scale(1.05);
+}
+.download-button {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-family: cursive;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  bottom: 15px;
+  left: 87.5%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.download-button:hover {
+  background-color: antiquewhite;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  transition: opacity 0.3s ease;
+}
+
+.image-container:hover img {
+  opacity: 0.9;
+}
+
+.App {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.App h1 {
+  text-align: center;
+  color: #333;
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.SearchCosito {
+  width: 80%;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  animation: zoomIn 0.5s ease forwards;
+}
+
+.SearchCosito:hover {
+  border-color: #888;
+  transform: scale(1.001);
+}
+
+.SearchCosito:focus {
+  border-color: #555;
+  box-shadow: 0 0 5px rgba(85, 85, 85, 0.5);
+}

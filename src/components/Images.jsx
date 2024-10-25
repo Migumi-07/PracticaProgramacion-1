@@ -65,8 +65,7 @@ function Images(props) {
                 ))}
         </Masonry>
       </div>
-      <img src={props.image} alt="" />
-      <h1>{props.nombre}</h1>
+     
     </>
   );
 }

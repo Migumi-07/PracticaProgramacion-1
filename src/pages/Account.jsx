@@ -101,8 +101,8 @@ function Account() {
                   />
                   <h1 className="accountTitle">Miguel Penes</h1>
                   <div className="accountSkills">
-                    <p>Developer</p>
                     <p>Frontend</p>
+                    <p>Developer</p>
                     <p>8:00am - 5:00pm</p>
                   </div>
                 </div>

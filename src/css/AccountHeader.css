@@ -20,17 +20,23 @@ header {
   z-index: 4;
 }
 
-.leftSide a {
+.leftSide .leftSideA {
   color: #454445;
-  font-size: 26px;
+  font-size: 22px;
   text-decoration: none;
   font-weight: 500;
 }
 
-.leftSide a:hover {
+.leftSide .leftSideA:hover {
   color: #9f4b4a;
 }
 
-.leftSide a:hover {
+.leftSide .leftSideA:hover {
   transform: scale(1.2);
+}
+
+.Dashboard {
+  color: #9f4b4a !important;
+  text-decoration: underline !important;
+  text-decoration-color: #9f4b4a;
 }

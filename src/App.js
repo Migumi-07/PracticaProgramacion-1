@@ -7,6 +7,7 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Artwork from './pages/Artwork';
 import Account from './pages/Account';
+import Calculator from './Apps/Calculator'
 import { Routes, Route } from "react-router-dom";
 
 
@@ -24,6 +25,7 @@ function App() {
           <Route path='Signup' element={<Signup />}></Route>
           <Route path='Artwork' element={<Artwork />}></Route>
           <Route path='Account' element={<Account />}></Route>
+          <Route path='/Calculator' element={<Calculator />}></Route>
           
         </Routes>
         

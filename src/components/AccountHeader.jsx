@@ -8,13 +8,24 @@ function AccountHeader() {
         <div className="accountHeaderContainer">
           <div className="leftSide">
             <span>
-              <a href="/">Home</a>
+              <a className="leftSideA Dashboard" href="Account">
+                Dashboard
+              </a>
             </span>
             <span>
-              <a href="/">Search</a>
+              <a className="leftSideA" href="/">
+                Home
+              </a>
             </span>
             <span>
-              <a href="Login">Message</a>
+              <a className="leftSideA" href="/">
+                Search
+              </a>
+            </span>
+            <span>
+              <a className="leftSideA" href="Login">
+                Message
+              </a>
             </span>
           </div>
         </div>

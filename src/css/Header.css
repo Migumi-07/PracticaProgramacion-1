@@ -65,7 +65,7 @@ header {
 }
 
 .centerSide a:hover {
-  color: #af8056;
+  color: #6c1d0f;
 }
 
 .rightSide {
@@ -131,7 +131,6 @@ header {
 .artWorkIcon {
   background-color: rgb(255, 255, 255);
   position: relative;
-  
 }
 
 .centerArtworkSide {

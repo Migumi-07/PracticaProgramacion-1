@@ -67,6 +67,7 @@
   font-size: 22px;
   margin-bottom: 20px;
   color: #454445;
+  text-decoration: none;
 }
 
 .leftAccountContainerList {
@@ -78,6 +79,10 @@
   list-style: none;
   text-decoration: none;
   margin-bottom: 40px;
+}
+
+.leftAccountOptions:hover {
+  color: #9f4b4a;
 }
 
 .leftAccountListOptions {
@@ -103,15 +108,21 @@
   display: grid;
   justify-content: center;
   border-radius: 40px;
+  margin-left: 40px;
 }
 
 .lefSideListContainer {
   box-shadow: 3px 3px 3px 3px rgb(193, 188, 188);
   border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.red {
+  color: #9f4b4a;
 }
 
 .leftsideOptions {
-  margin-bottom: 28px;
+  margin-bottom: 48px;
 }
 
 .leftsideOptionsA {
@@ -121,6 +132,10 @@
 
 .leftsideOptionsA:hover {
   color: #9f4b4a;
+}
+
+.contentAccount {
+  width: 1170px;
 }
 
 .firstPartAccountContent {
@@ -207,6 +222,9 @@ form {
   border-radius: 10px;
   width: 450px;
   height: 40px;
+  padding: 8px;
+  font-size: 18px;
+  border: 1px solid gray;
 }
 
 .editFormInput::placeholder {
@@ -214,7 +232,6 @@ form {
   align-items: center;
   font-weight: 500;
   color: #857e85;
-  padding: 8px;
 }
 
 .editFormInput:last-child {
@@ -223,9 +240,6 @@ form {
 
 .editAccountForm {
   margin-left: 48px;
-}
-
-.editFormAbout {
 }
 
 .editFormAboutYou {
@@ -238,4 +252,8 @@ form {
 .editFormAboutYou::placeholder {
   font-size: 20px;
   padding: 8px;
+}
+
+.active {
+  color: #9f4b4a !important;
 }

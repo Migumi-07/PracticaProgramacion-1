@@ -14,20 +14,33 @@
   max-height: 600px;
   height: 100%;
   padding: 20px;
-  background-color: #1b7d52;
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background-color: rgba(27, 125, 83, 0.788);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   border-radius: 20px;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
-  padding-top: 10px; 
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease-in-out;
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(0, 0, 0, 0.178);
+  padding-top: 10px;
+  flex-basis: 400px;
 }
 .btnContainer {
   padding: 20px;
   background-color: white;
-  border-radius: 20px;
-  border: 5px solid white;
+  border-radius: 15px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.btnContainer:active {
+  transform: scale(0.95);
+  box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .row {

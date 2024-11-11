@@ -2,6 +2,7 @@
   min-height: 84px;
   width: 100%;
   border-radius: 50px;
+  backdrop-filter: blur(5.5px);
   background-color: #145e43;
   color: white;
   font-weight: bold;
@@ -9,5 +10,5 @@
   text-align: right;
   padding: 10px 20px;
   box-sizing: border-box;
-  box-shadow: -1px 4px 5px 1px #011a1c;
+  box-shadow: -1px 4px 5px 1px #000000b9;
 }
